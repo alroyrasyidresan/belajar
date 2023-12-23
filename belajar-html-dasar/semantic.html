@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Semantic</title>
+
+    <style>
+        header {
+            background-color: grey;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        article {
+            padding: 30px;
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: grey;
+            color: white;
+        }
+
+        nav {
+            background-color: yellow;
+            padding: 30px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            color: black;
+        }
+
+        nav li a:hover {
+            color: white;
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- article, aside, figure, figurecaption, footer, header, main, mark, nav, section, details, summary, time -->
+    <!-- sebenarnya itu hanya tag, tidak ada fungsi nyata pada kode, jadi sifatnya seperti div -->
+    <header>
+        <h1>Judul Halaman</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Artikel</a></li>
+            <li><a href="#">Kontak Kami</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Belajar HTML</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate ab dolorum consequatur ipsa
+                minima quidem itaque iure quaerat, libero quibusdam illum sapiente unde ratione inventore earum! Quidem,
+                nemo ratione.</p>
+        </article>
+        <article>
+            <h2>Belajar CSS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate ab dolorum consequatur ipsa
+                minima quidem itaque iure quaerat, libero quibusdam illum sapiente unde ratione inventore earum! Quidem,
+                nemo ratione.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Powered by Programmer Zaman Now <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+
+</html>
