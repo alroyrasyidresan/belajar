@@ -2,7 +2,7 @@
 
 # Hai, aku Alroy! 👋
 
-Aku bermimpin ingin menjadi full stack developer...
+Aku bermimpi menjadi full stack developer...
 
 ## Roadmap
 
