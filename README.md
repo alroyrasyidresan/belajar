@@ -10,7 +10,7 @@ Aku bermimpi menjadi full stack developer...
 
 - [HTML Form](https://github.com/alroyrasyidresan/belajar/tree/main/belajar-html-form-pzn) - 2j 45m
 
-- ~~CSS Dasar~~
+- [CSS Dasar](https://github.com/alroyrasyidresan/belajar/tree/main/belajar-css-dasar-pzn) - 3j 30m
 
 - ~~JavaScript Dasar~~
 
